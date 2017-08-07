@@ -5,6 +5,8 @@ An userspace daemon for managing airplane mode. It listens for KEY_RFKILL on a g
 It's currently a work in progress and many imperfections are present.
 The LED name is currently hardcoded to `asus-wireless::airplane`.
 
+_If you wish to use rfkill's integrated input handler and only manage the LED, check out the ledonly branch. (see what I did there?)_
+
 How to use
 ---
 Adjust the `#define LEDNAME` in airplaned.c to whatever your airplane mode LED is called. (Look into `/sys/class/leds`)
