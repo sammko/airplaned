@@ -2,7 +2,7 @@ airplaned
 ===
 
 An userspace daemon for managing airplane mode. It listens for KEY_RFKILL on a given event device and automatically saves and restores rfkill device state when entering and leaving airplane mode respectively.
-It's currently a work in progress and many imperfections are present.
+It's a work in progress and many imperfections are present.
 The LED name is currently hardcoded to `asus-wireless::airplane`.
 
 _If you wish to use rfkill's integrated input handler and only manage the LED, check out the ledonly branch. (see what I did there?)_
