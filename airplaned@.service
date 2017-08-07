@@ -1,0 +1,9 @@
+[Unit]
+Description=Airplane mode manager.
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/airplaned /dev/input/%I
+
+[Install]
+WantedBy=multi-user.target

@@ -1,9 +1,0 @@
-[Unit]
-Description=Airplane mode LED on asus laptops.
-
-[Service]
-Type=simple
-ExecStart=/usr/bin/airplaneledd
-
-[Install]
-WantedBy=multi-user.target
