@@ -1,2 +1,0 @@
-
-An userspace daemon for managing the airplane mode LED on various laptops. It listens for rfkill events, and lights up the LED if all devices are soft- or hard-blocked. The LED identifier is currently hardcoded to the one present on ASUS laptops.
